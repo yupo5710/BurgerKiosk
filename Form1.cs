@@ -19,6 +19,7 @@ namespace BurgerKiosk
 
             // 1. 라디오버튼 (메뉴 선택) 확인
             // 라디오버튼은 그룹 내에서 하나만 선택되므로 else if를 사용합니다.
+
             if (rdbtnBuger.Checked)
             {
                 totalCost += 5000;
@@ -29,10 +30,10 @@ namespace BurgerKiosk
                 totalCost += 4000;
                 lbOrderList.Items.Add("불고기버거 4,000원");
             }
-            else if (rdbtnShrimp.Checked)
+            else if (rdbtnChicken.Checked)
             {
                 totalCost += 3000;
-                lbOrderList.Items.Add("새우버거 3,000원");
+                lbOrderList.Items.Add("치킨버거 3,000원");
 
             }
             // 2. 체크박스 (추가 옵션) 확인
@@ -59,7 +60,7 @@ namespace BurgerKiosk
             }
 
             // 3. 합계 금액 출력
-            lblTotal.Text = "총 금액 : " + totalCost.ToString() + "원";
+            lblTotal.Text = "총 금액 " + totalCost.ToString() +"원";
 
         }
 
@@ -68,7 +69,7 @@ namespace BurgerKiosk
             // 모든 선택 상태를 False(해제)로 바꿉니다.
             rdbtnBuger.Checked = false;
             rdbtnBulggogi.Checked = false;
-            rdbtnShrimp.Checked = false;
+            rdbtnChicken.Checked = false;
 
             chFriedChips.Checked = false;
             chCoke.Checked = false;
@@ -78,6 +79,7 @@ namespace BurgerKiosk
             // 출력 화면을 깨끗하게 지웁니다.
             lbOrderList.Items.Clear();
             lblTotal.Text = "총 금액 0원";
+
         }
     }
 }
