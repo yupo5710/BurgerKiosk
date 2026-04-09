@@ -5,7 +5,7 @@ namespace BurgerKiosk
         public Form1()
         {
             InitializeComponent();
-
+            this.AcceptButton = btnOrder;
         }
 
         private void gpOptions_Enter(object sender, EventArgs e)
