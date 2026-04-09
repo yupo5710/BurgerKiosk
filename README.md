@@ -21,6 +21,7 @@
   - AcceptButton 속성 설정을 통한 Enter 키 주문 실행 기능
 
 ## 실행 화면 (과제1)
+- 코드의 실행 스크린샷과 구현 내용 설명
 - 주문하기와 초기화로 주문 구성
 - 과제1 코드의 실행 스크린샷  
 ![과제1 실행화면](img/screenshot-1.png)
@@ -42,6 +43,7 @@
     사용한 코드: `rdoBuger.Checked = false; chkCoke.Checked = false; lbOrderList.Items.Clear();`
 
 ## 실행 화면 (과제2)
+- 코드의 실행 스크린샷과 구현 내용 설명
 - 아무 내용 없이 주문시 오류 메시지 나오게 함
 - 과제2 코드의 실행 스크린샷  
 ![과제2 실행화면](img/screenshot-2.png)
@@ -62,6 +64,7 @@
     사용한 코드: `lblTotal.ForeColor = Color.Blue;`
 
 ## 실행 화면 (과제3)
+- 코드의 실행 스크린샷과 구현 내용 설명
 - 과제3 코드의 실행 스크린샷
 - 탭키와 스페이스 엔터키로 이동
 ![과제3 실행화면](img/screenshot-3.png)
@@ -79,6 +82,7 @@
     사용한 코드: `lblTotal.Text = $"총 금액 {totalCost:N0}원";`
 
 ## 실행 화면 (과제4)
+- 코드의 실행 스크린샷과 구현 내용 설명
 - 과제4 코드의 실행 스크린샷
 - 추가할때마다 리스트박스로 실시간 변경
 ![과제4 실행화면](img/screenshot-4.png)
